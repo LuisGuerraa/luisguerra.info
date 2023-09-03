@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler(req: NextRequest) {
   const followersResponse = await fetch(
-    'https://api.github.com/users/TiagoPereira06/followers'
+    'https://api.github.com/users/LuisGuerraa/followers'
   );
 
   const followers = await followersResponse.json();

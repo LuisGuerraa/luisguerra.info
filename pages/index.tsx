@@ -14,26 +14,25 @@ export default function Home() {
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-                Tiago Pereira
+                Luís Guerra
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Sofware Engineer at{' '}
-                <span className="font-semibold">Nipo</span>
+                Security & Sofware Engineer
+                <span className="font-semibold"></span>
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                An engineer that loves complex challenges and trying new technologies or tools.
-                Plans to study history and music after retirement.
+                Security enthusiast and software engineer trying to learn.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
               <Image
-                alt="Tiago Pereira"
+                alt="Luís Guerra"
                 height={176}
                 width={176}
-                src="/avatar.jpg"
+                src="/avatar.png"
                 sizes="30vw"
                 priority
-                className="rounded-full filter grayscale"
+                className="rounded-full "
               />
             </div>
           </div>
