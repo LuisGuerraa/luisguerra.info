@@ -7,7 +7,7 @@ import TopTracks from 'components/TopTracks';
 export default function Stats() {
   return (
     <Container
-      title="Stats – Tiago Pereira"
+      title="Stats – Luís Guerra"
       description="My personal dashboard, built with Next.js API routes deployed as serverless functions."
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">

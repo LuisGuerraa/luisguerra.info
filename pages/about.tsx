@@ -13,10 +13,10 @@ export default function About() {
           About Me
         </h1>
         <div className="mb-8 prose dark:prose-dark leading-6">
-          <h2>Links</h2>
+          <h2>Socials</h2>
           <ul>
             <li>
-              Twitter: <a href="https://twitter.com/LuisGuerra3548">https://twitter.com/LuisGuerra3548b</a>
+              Twitter: <a href="https://twitter.com/LuisGuerra3548">LuisGuerra3548</a>
             </li>
             <li>
               GitHub: <a href="https://github.com/LuisGuerraa">@LuisGuerraa</a>
@@ -31,62 +31,17 @@ export default function About() {
           <h2>Bio</h2>
           <h3>Job Title</h3>
           <p>Security & Sofware Engineer</p>
-          <h3>Long, 3rd Person</h3>
           <p>
-            Tiago Pereira is the Sofware Engineer at{' '}
-            <a href="http://nipo.com/">NIPO</a>, where he helps developers
-            build a faster web and leads the Next.js community. He leads the
-            community for the React framework Next.js and is an open-source
-            contributor. An educator, writer, and speaker, Tiago has created
-            courses on React, Next.js, and web development.
+            Hey, I'm Luís. I'm the Sofware and Security Engineer
           </p>
-          <h3>Long, 1st Person</h3>
-          <p>
-            Hey, I'm Tiago. I'm the Sofware Engineer at{' '}
-            <a href="https://nipo.com/">NIPO</a>, where my team helps
-            developers build a faster web. I'm a Next.js contributor and help
-            lead our open-source communities. I'm passionate about frontend
-            development and have created courses on React, Next.js, and web
-            development. I'm an advisor and investor in early stage startups.
-          </p>
-          <h3>Short, 3rd Person</h3>
-          <p>
-            Tiago Pereira is the Sofware Engineer at{' '}
-            <a href="http://nipo.com/">NIPO</a>, where he helps developers
-            build a faster web.
-          </p>
-          <h3>Short, 1st Person</h3>
-          <p>
-            Hey, I'm Tiago. I'm the Sofware Engineer at{' '}
-            <a href="https://nipo.com/">NIPO</a>, where my team helps
-            developers build a faster web.
-          </p>
+          <h3>Carreer</h3>
           <h3>Education</h3>
           <p>
-            Tiago Pereira graduated from Iowa State University with a B.S. in
-            Computer Engineering.
+            Graduated from  <a href="https://www.isel.pt/">Insituto Superior de Engenharia de Lisboa</a> (ISEL) with a B.S. in
+            Computer Science and Engineering.
+            Additionally, I took a Master's degree also at <a href="https://www.isel.pt/">Insituto Superior de Engenharia de Lisboa</a> (ISEL)
+            in Computer Science and Engineering with focus on computer security, distributed systems and networks.
           </p>
-          <h2>Headshots</h2>
-          <div className="flex space-x-8">
-            <a href="/avatar.jpg">
-              <Image
-                alt="Tiago Pereira headshot"
-                width={400}
-                quality={100}
-                src={avatar}
-                className="rounded-md"
-              />
-            </a>
-            <a href="/avatar-bw.jpg">
-              <Image
-                alt="Tiago Pereira headshot"
-                width={400}
-                quality={100}
-                src={avatarBW}
-                className="rounded-md"
-              />
-            </a>
-          </div>
         </div>
       </div>
     </Container>

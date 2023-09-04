@@ -34,9 +34,9 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://github.com/TiagoPereira06">GitHub</ExternalLink>
-          <ExternalLink href="https://medium.com/@tiagomrp06">Medium</ExternalLink>
-          <ExternalLink href="https://www.linkedin.com/in/tiagomrpereira/">Linkedin</ExternalLink>
+          <ExternalLink href="https://github.com/LuisGuerraa">GitHub</ExternalLink>
+          <ExternalLink href="https://medium.com/@luiswar3548durant">Medium</ExternalLink>
+          <ExternalLink href="https://www.linkedin.com/in/luisguerra35/">Linkedin</ExternalLink>
         </div>
       </div>
     </footer>

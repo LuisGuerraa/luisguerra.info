@@ -37,9 +37,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Tiago Pereira – Developer',
-    description: `Back-end developer, .NET enthusiast, and bartender.`,
-    image: 'https://tiagopereira.info/static/images/tiago-banner.png',
+    title: 'Luís Guerra - Security Engineer',
+    description: `Security enthusiast and software engineer.`,
     type: 'website',
     ...customMeta
   };
@@ -56,12 +55,10 @@ export default function Container(props) {
         <meta property="og:site_name" content="Tiago Pereira" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@leeerob" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
@@ -76,6 +73,7 @@ export default function Container(props) {
             <NavItem href="/" text="Home" />
             <NavItem href="/stats" text="Stats" />
             <NavItem href="/blog" text="Blog" />
+            <NavItem href="/about" text="About me" />
           </div>
           <button
             aria-label="Toggle Dark Mode"
