@@ -52,7 +52,7 @@ export default function Container(props) {
         <meta property="og:url" content={`https://tiagopereira.info${router.asPath}`} />
         <link rel="canonical" href={`https://tiagopereira.info${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Tiago Pereira" />
+        <meta property="og:site_name" content="Luís Guerra" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta name="twitter:card" content="summary_large_image" />
